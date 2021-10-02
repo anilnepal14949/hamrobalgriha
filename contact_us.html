@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Free Tour Package Website Tempalte | Smarteyeapps.com</title>
+    <title>Grahmin Jivan Sthar Sudhar Manch</title>
     <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/fav.jpg">
@@ -18,6 +18,42 @@
 
 <body>
 
+<!-- Modal -->
+<section id="modal-section">
+    <div class="container">
+        <div class="modal fade" id="donateModal" role="dialog">
+            <div class="modal-dialog" >
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                <h4 class="modal-title">Scan to Donate</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="img">
+                                    <img src="assets/images/scan.png" alt="user" style="height: 310px; width:240px;">
+                                </div>
+                            </div>
+                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="img">
+                                  <img src="assets/images/bank.jpg" alt="user" style="height: 310px; width:240px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
 <header class="continer-fluid ">
     <div  class="header-top">
         <div class="container">
@@ -26,17 +62,17 @@
                     <ul class="ulleft">
                         <li>
                             <i class="far fa-envelope"></i>
-                            sales@smarteyeapps.com
+                            graminlife@gmail.com
                             <span>|</span></li>
                         <li>
                             <i class="fas fa-phone-volume"></i>
-                            +876 987 666 5433</li>
+                            057-526923, +977-9845775577</li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 folouws">
-                  
+
                     <ul class="ulright">
-                       <li> <small>Folow Us </small>:</li>
+                       <li> <small>Follow Us </small>:</li>
                         <li>
                             <i class="fab fa-facebook-square"></i>
                         </li>
@@ -52,8 +88,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
-                    <button class="btn btn-sm btn-success">Join Us</button>
-                    <button class="btn btn-sm btn-default">Donate</button>
+                    <button class="btn btn-sm btn-default donateBtn" data-toggle="modal" data-target="#donateModal">Donate</button>
                 </div>
             </div>
         </div>
@@ -63,50 +98,43 @@
             <div class="row nav-row">
                 <div class="col-lg-3 col-md-12 logo">
                     <a href="index.html">
-                        <img src="assets/images/logo.jpg" alt="">
+                        <img src="assets/images/logo.png" alt="">
                         <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
                     </a>
 
                 </div>
                 <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+                    <ul class="navbad">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Our Services</a>
+                        </li>
 
-                            <ul class="navbad">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about_us.html">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="services.html">Services</a>
-                                </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="gallery.html">Gallery</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact_us.html">Contact US</a>
-                                </li>
-
-
-
-
-                            </ul>
-
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="activities.html">Activities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active-menu" href="contact_us.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </header>
- 
+
   <!--  ************************* Page Title Starts Here ************************** -->
-        
+
     <div class="page-nav no-margin row">
         <div class="container">
             <div class="row">
@@ -118,24 +146,19 @@
             </div>
         </div>
     </div>
-    
-    
-   
+
+
+
   <!--  ************************* Contact Us Starts Here ************************** -->
 
 
     <div style="margin-top:0px;" class="row no-margin">
-
-        <iframe style="width:100%" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249759.19784092825!2d79.10145254589841!3d12.009924873581818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1448883859107"  height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3541.259681221763!2d85.04337961550372!3d27.43001668290767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb49e6c8e0473d%3A0x985b0ddc6c054784!2sHamro%20ghar%20child%20home!5e0!3m2!1sen!2sau!4v1633137441540!5m2!1sen!2sau"width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <div class="row contact-rooo no-margin">
         <div class="container">
             <div class="row">
-
-
                 <div style="padding:20px" class="col-sm-7">
                     <h2 >Contact Form</h2> <br>
                     <div class="row cont-row">
@@ -164,46 +187,33 @@
                     </div>
                 </div>
                 <div class="col-sm-5">
-
-                    <div style="margin:50px" class="serv">
-
-
-
-
-
-                        <h2 style="margin-top:10px;">Address</h2>
-
-                       Antonya Street, <br>
-                        23/H-2, Building<br>
-                        TA, AUS District<br>
-                        Phone:+91 9159669599<br>
-                        Email:support@smarteyeapps.com<br>
-                        Website:www.smarteyeapps.com.com<br>
-
-
-
-
-
-
-
+                    <div class="serv">
+                        <h2 style="margin:30px 0 20px 0;">Address</h2>
+                        Hetauda- 05, Sinchai Tole, <br>
+                        Sanopokhara, Hetauda, <br>
+                        Makwanpur, Nepal <br>
+                        Zip Code: 44100, 44107 <br>
+                        Phone: 057-526932, +977-9845775577 <br>
+                        Email: graminlife@gmail.com<br>
+                        Website: www.hamrobalgriha.org<br>
                     </div>
-
-
+                    <div class="donate_contact">
+                        <h2 style="margin:30px 0 20px 0;">Donate</h2>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <img src="assets/images/scan.png" alt="user">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <img src="assets/images/bank.jpg" alt="user">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
-
     </div>
-       
-      
-      
-       
-  
-                 
   <!--  ************************* Footer Starts Here ************************** -->
-          
-      <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-12">
@@ -236,8 +246,8 @@
 
                 </div>
             </div>
-            
-            
+
+
             <div class="nav-box row clearfix">
                 <div class="inner col-md-9 clearfix">
                     <ul class="footer-nav clearfix">
@@ -249,19 +259,19 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
 
-                  
+
                 </div>
                   <div class="donate-link col-md-3"><a href="donate.html" class="btn btn-primary "><span class="btn-title">Donate Now</span></a></div>
             </div>
-            
+
         </div>
-        
+
 
     </footer>
     <div class="copy">
             <div class="container">
                 <a href="https://www.smarteyeapps.com/">2015 &copy; All Rights Reserved | Designed and Developed by Smarteyeapps</a>
-                
+
                 <span>
                 <a><i class="fab fa-github"></i></a>
                 <a><i class="fab fa-google-plus-g"></i></a>
@@ -272,8 +282,8 @@
             </div>
 
         </div>
-          
-    
+
+
 </body>
 
 <script src="assets/js/jquery-3.2.1.min.js"></script>
